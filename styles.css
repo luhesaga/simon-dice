@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.celeste {
+    background: #22a6b3;
+}
+
+.celeste.light {
+    background: #7ed6df;
+}
+
+.violeta {
+    background: #be2edd;
+}
+
+.violeta.light {
+    background: #e056fd;
+}
+
+.naranja {
+    background: #f0932b;
+}
+
+.naranja.light {
+    background: #ffbe76;
+}
+
+.verde {
+    background: #6ab04c;
+}
+
+.verde.light {
+    background: #badc58;
+}
+
+.btn-start {
+    width: 350px;
+    height: 100px;
+    background: #fbe9e7;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(63% - 60px);
+    left: calc(52% - 200px);
+}
+
+.hide {
+display: none;
+}

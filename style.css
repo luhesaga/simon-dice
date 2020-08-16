@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+}
+
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.celeste {
+    background: #22a6b3;
+    flex-basis: 49%;
+    border-top-left-radius: 50%;
+    border-bottom: 3px solid #141E30;
+    border-right: 3px solid #141E30;
+}
+
+.celeste.light {
+    background: #7ed6df;
+    border-color: silver;
+}
+
+.violeta {
+    background: #be2edd;
+    flex-basis: 49.2%;
+    border-top-right-radius: 50%;
+    border-bottom: 3px solid #141E30;
+    border-left: 3px solid #141E30;
+}
+
+.violeta.light {
+    background: #e056fd;
+    border-color: silver;
+}
+
+.naranja {
+    background: #f0932b;
+    flex-basis: 48%;
+    border-bottom-left-radius: 50%;
+    border-top: 2% solid #141E30;
+    border-right: 2% solid #141E30;
+}
+
+.naranja.light {
+    background: #ffbe76;
+    border-color: silver;
+}
+
+.verde {
+    background: #6ab04c;
+    flex-basis: 48%;
+    border-bottom-right-radius: 50%;
+    border-top: 2% solid #141E30;
+    border-left: 2% solid #141E30;
+}
+
+.verde.light {
+    background: #badc58;
+    border-color: silver;
+}
+
+.btn-start {
+    width: 300px;
+    height: 100px;
+    background: #fcfcfc;
+    border: 2px solid darkolivegreen;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    position: absolute;
+    border-radius: 6%;
+    top: 52%;
+    left: 35%;
+}
+
+.hide {
+    display: none;
+    }
